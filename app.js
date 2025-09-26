@@ -8,8 +8,9 @@ const PORT = process.env.PORT || 3000;
 const Contact = require("./models/contactSchema"); // adjust path
 
 const allowedOrigins = [
-    "https://portfolio-pi-swart-k9xipfhiwj.vercel.app/",
-    "https://portfolio-l9hka0663-mdhamizs-projects.vercel.app/"
+    "https://portfolio-pi-swart-k9xipfhiwj.vercel.app",
+    "https://portfolio-l9hka0663-mdhamizs-projects.vercel.app",
+    "http://localhost:5173"
 ]
 
 app.use(cors({
